@@ -1,0 +1,19 @@
+﻿<Controls:MetroWindow x:Class="ItemAll.Forms.Message.TextMessage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:local="clr-namespace:ItemAll.Forms.Message"
+        mc:Ignorable="d"
+        Title="{Binding Path=MyTitle}" Height="121.109" Width="303.958" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label x:Name="l_text" Content="Message" Margin="10,17,10,40" FontSize="16"/>
+        <Button x:Name="b_ok" Content="OK" HorizontalAlignment="Left" Margin="106,0,0,10" VerticalAlignment="Bottom" Width="75" Background="White" BorderThickness="1,0,1,3">
+            <Button.BorderBrush>
+                <SolidColorBrush Color="{DynamicResource HighlightColor}"/>
+            </Button.BorderBrush>
+        </Button>
+
+    </Grid>
+</Controls:MetroWindow>
